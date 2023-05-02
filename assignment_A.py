@@ -12,6 +12,6 @@ def binary_search(array, x):
             left = mid + 1
     return -1
 
-arr = [1, 3, 5, 7, 9]
+array = [1, 3, 5, 7, 9]
 x = 5
-print(binary_search(arr, x)) 
+print(binary_search(array, x)) 
